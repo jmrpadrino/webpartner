@@ -1,0 +1,70 @@
+.getgogalapagos{
+    max-width: 320px;
+    width: 100%;
+    border-width: 4px;
+    padding: 28px 32px;
+    display: block;
+    margin: 18px 0;
+}
+.getgogalapagos.light{
+    background: white;
+    color: #2f2f2f;
+    border: solid #eaeaea;
+}
+.getgogalapagos.dark{
+    background: #2f2f2f;
+    color: #bababa;
+    border: solid #bababa;
+}
+.getgogalapagos.right{
+    margin: 18px 0;
+    float: right;
+}
+.getgogalapagos.center{
+    margin: 18px auto;
+}
+.getgogalapagos h2{
+    text-align: center;
+	font-size: 24px;
+    font-weight: bold;
+    color: orange;
+    line-height: 1;
+}
+.getgogalapagos-logo{
+    width: 80%;
+    max-width: 120px;
+    margin: 18px auto;
+    display: block;
+}
+.getgogalapagos select {
+	width: 100%;
+    height: 36px;
+    padding: 5px;
+    border-radius: 4px;
+}
+.getgogalapagos.light label{
+    color: dimgray;
+}
+.getgogalapagos.dark label{
+    color: white;
+}
+a.more-departures-link{
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    font-size: 10px;
+    margin-top: 8px;
+    color: orange!important;
+}
+.getgogalapagos button{
+    margin: 18px auto;
+    border-radius: 4px;
+    padding: 8px 17px;
+    text-align: center;    
+    background: orange;
+    color: #2f2f2f;
+    border: none;
+    display: block;
+    font-weight: 900;
+    text-transform: uppercase;
+}
