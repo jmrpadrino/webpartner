@@ -19,9 +19,6 @@ define('GETGOGALAPAGOS_DEFULAT_CSS',
 // CREAR EL SHORTCODE PARA INYECTAR LAS FUNCIONES DEL COTIZADOR
 add_shortcode('getgogalapagos', 'goga_main_function');
 function goga_main_function($atts, $content = null){
-    echo '<pre>';
-    var_dump($atts);
-    echo '</pre>';
     
     if(array_key_exists('theme', $atts)){
         $tema = $atts['theme'];
